@@ -1,0 +1,114 @@
+.logininformation{
+    text-align: center;
+    padding: 24px 0px;
+    font-size: 1vw;
+    font-family:  'oswald','Montserrat',sans-serif;
+}
+
+.totaldiv{
+    height: 63vh;
+    margin: 0 auto;
+    padding: 0px 36px;
+    max-width: 500px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+              -6px -6px 10px -1px rgba(255,255,255,0.7);
+    background-color: darkorange;
+}
+
+@media (max-width:500px){
+    .totaldiv{
+        max-width: 325px;
+    }
+}
+
+.flexdiv{
+  display: flex;
+  margin-top: 3%;
+}
+
+.nameinput{
+    margin-left: 78px;
+    width: 13vw;
+    border-left: 4px solid #3366FF;
+}
+
+.pwdinput{
+    width: 13vw;
+    margin-top: auto;
+    margin-left: 56px;
+    border-left: 4px solid #3366FF;
+}
+
+.emailInput{
+    width: 13vw;
+    margin-left: 83px;
+    border-left: 4px solid #3366FF;
+}
+
+.genderInput{
+    width: 13vw;
+    margin-left: 72px;
+    border-left: 4px solid #3366FF;
+}
+
+.countryInput{
+    margin-left: 66px;
+    width: 13vw;
+    border-left: 4px solid #3366FF;
+}
+
+.password{
+    font-size: 1vw;
+    font-family:  'oswald','Montserrat',sans-serif;
+    margin-top: 2%;
+}
+
+.passwordInput{
+    width: 13vw;
+    margin-left: 50px;
+    border-left: 4px solid #3366FF;
+}
+
+.confirmpwd{
+    font-size: 1vw;
+    font-family: c 'oswald','Montserrat',sans-serif;
+    margin-top: 2%;
+}
+
+.confirmpwdInput{
+    margin-left: 53px;
+    width: 13vw;
+    border-left: 4px solid #3366FF;
+}
+
+.marginTop{
+    display: flex;
+    margin-top: 2%
+}
+
+  .registerbuttonDiv{
+    margin-left: 37%;
+    margin-top: 1%;
+  }
+
+  .buttonstyles{
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+
+  }
+
+  .checkboxdiv{
+    display: flex;
+    margin-left: 28%;
+  }
+
+  .agree{
+    margin-left: 10px;
+  }
+
+  

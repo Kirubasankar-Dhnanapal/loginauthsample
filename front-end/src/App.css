@@ -1,0 +1,160 @@
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+.loginbox{
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+  height: 45vh;
+  margin-top: 12%;
+  background: darkorange;
+  box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+              -6px -6px 10px -1px rgba(255,255,255,0.7);
+}
+
+@media (max-width:500px){
+  .loginbox{height: 55vh;}
+}
+
+.loginpwd{
+  outline: none;
+  margin-left: 122px;
+  position: relative;
+    top: 34px;
+    padding: 7px;
+    border-radius: 15px;
+    border-style: none;
+}
+
+.loginbutton{
+  position: relative;
+    margin-left: 29%;
+    width: 44%;
+    top: 64px;
+    background: linear-gradient(90deg,transparent,#f1e4e4)
+}
+
+.borderStyle{
+  border-bottom: none;
+    border-top: none;
+    border-left: noowhite;
+    border-left-style: none;
+    border-right-style: none;
+}
+
+.inputtype{
+  padding: 8px 12px;
+  margin: 29px 0;
+  box-sizing: border-box;
+}
+
+.sumlabel{
+  margin-top: 2vw;
+    font-size: 2vw;
+    margin-left: 4vw;
+}
+
+.sumText{
+  padding: 8px 12px;
+    margin: 29px 0;
+    box-sizing: border-box;
+    margin-left: 12%;
+}
+
+.buttonTag{
+  padding-left: 2vw;
+    width: 23vw;
+    display: block;
+}
+
+.logindiv{
+  font-family: sans-serif;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+  text-align: center;
+  font-size: 2vw;
+  margin-top: -28%;
+}
+
+
+@media screen{
+.usediv{
+  outline: none;
+  margin-left: 122px;
+  padding: 7px;
+    margin-top: 1vw;
+    border-style: none;
+    border-radius: 15px;
+}
+}
+
+.bloodheader{
+  text-align: center;
+    width: 100%;
+    height: 10vh;
+    background-color: indianred;
+    font-size: 2vw;
+    padding: 16px;
+}
+
+.bloodname{
+  font-size: 2vw;
+    padding: 53px;
+}
+
+.bloodnameinput{
+  border-style: none;
+  outline: none;
+  border-radius: 9px;
+}
+
+.buttonStyle{
+  border-radius:0px;
+    width: 9vw;
+    padding: 4px 4px;
+}
+
+.registerbuttondiv{
+  margin-top: 62%;
+    float: left;
+    margin-left: -36%;
+}
+
+.registerbutton{
+    border-radius: 0px;
+    letter-spacing: 2px;
+    outline: none;
+    background: linear-gradient(270deg, gainsboro, transparent);
+    text-transform: capitalize;
+}
+
+.loginlabel{
+  margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.loginbtn{
+  margin-top: 14%;
+    margin-left: 45%;
+}
+
+.regisbtn{
+  margin-left: 4%;
+  margin-top: 5%;
+}
+
+.dashboard{
+  position: absolute;
+  height: 100vh;
+    width: 100%;
+}
+
+.RegisterDiv{
+  position: absolute;
+    height: 100vh;
+    width: 100%;
+    background: brown;
+}
